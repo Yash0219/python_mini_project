@@ -1,8 +1,8 @@
 import random
 
-emojie = {'r': '🪨', 's': '✂️', 'p': '📃'}  # Moved outside the loop (no need to redefine every time)
+emojie = {'r': '🪨', 's': '✂️', 'p': '📃'}  
 #using tuple cause immutable
-choices = ('r', 'p', 's')  # Also moved outside the loop
+choices = ('r', 'p', 's') 
 
 while True:
     user_choice = input("rock, paper or scissor (r,p,s): ").lower()
